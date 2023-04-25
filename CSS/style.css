@@ -1,0 +1,177 @@
+.inline-block{
+display:inline-block;
+vertical-align: top;
+align-items: center;
+}
+.logo{
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+nav {
+width: 73%;
+padding: 1%;
+justify-content: space-between;
+}
+ul {
+    width: 35%;
+    margin-left: auto;
+}
+
+.heroImg{
+    
+    height: 600px;
+    padding: 25px;
+}
+.content{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F2F2F2;
+
+
+}
+
+footer {
+    background-color: #373738;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+
+}
+li{
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin: 10px;
+    font-weight: bold;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1px;
+}
+
+button{
+    background-color: #4A678C;
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: white;
+    padding:15px 20px;
+    Margin: 25px
+}
+
+h1{
+    font-family: 'Hanken Grotesk', sans-serif;  
+    font-size: 38px;
+    text-align: center;
+}
+h3{
+    font-family: 'Hanken Grotesk', sans-serif; 
+    font-size: 30px;
+    text-align: center;
+    color: #4A678C;
+}
+h4{
+    font-family: 'Hanken Grotesk', sans-serif;  
+}
+p{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 20px;
+}
+img{
+    padding: 20px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.flexContainer{
+    display: flex;
+    background-color: #4a678c;
+}
+.skills{
+    width:33%;
+    text-align: center;
+    padding: 15px;
+    Margin:15px;
+    background-color: #F2F2F2;
+
+}
+.divider{
+    height: 10px;
+}
+#blue{
+    background-color: #4A678C;
+    margin-top: 100px;
+}
+#red{
+    background-color: #BF2441;
+    margin-bottom: 100px;
+}
+#yellow{
+    background-color: #D9A566;
+}
+#orange{
+    background-color: #D95436;
+}
+.workGrid{
+    outline: 1px solid black;
+    margin: 25px;
+    padding: 10px;
+    display: grid;
+    grid-template-areas: 
+    "Item1 Item2" 
+    "Item4 Item3";
+}
+#item1{
+    grid-area: Item1;
+    text-align: center;
+
+}
+#item2{
+    grid-area: Item2;
+    text-align: center;
+    padding-top: 150px;
+
+}
+#item3{
+    grid-area: Item3;
+    text-align: center;
+
+}
+#item4{
+    grid-area: Item4;
+    text-align: center;
+    padding-top: 150px;
+
+}
+
+
+    
+@media only screen and (max-width: 600px){
+    
+ .flexContainer{
+     display: flex;
+     flex-direction: column;
+     background-color: #4a678c;
+ }
+ .skills{
+    width:33%;
+    text-align: center;
+    padding: 15px;
+    Margin:15px;
+    background-color: #F2F2F2;
+}
+.workGrid{
+    outline: 1px solid black;
+    margin: 25px;
+    padding: 10px;
+    display: grid;
+    grid-template-areas: 
+    "Item1"
+    "Item2" 
+    "Item4"
+    "Item3";
+}
+}
