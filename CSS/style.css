@@ -1,7 +1,10 @@
+
 .inline-block{
 display:inline-block;
 vertical-align: top;
 align-items: center;
+margin-left: 0;
+margin-top: 0;
 }
 .logo{
     width: 23%;
@@ -19,15 +22,22 @@ ul {
 }
 
 .heroImg{
-    
-    height: 600px;
+    height: 750px;
     padding: 25px;
+    background-image: url(..//Images/F7D228FF-28C7-456C-BF4F-7DE60B1D610D_1_105_c\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
 }
 .content{
     width: 500px;
     margin: 0 auto;
     text-align: center;
-    background-color: #F2F2F2;
+    color: #F2F2F2;
+    
+    
 
 
 }
@@ -42,8 +52,9 @@ footer {
 }
 li{
     font-family: 'Hanken Grotesk', sans-serif;
-    margin: 10px;
+    margin: 20px;
     font-weight: bold;
+    font-size: 25px;
 }
 
 footer ul {
@@ -55,6 +66,7 @@ footer ul {
 button{
     background-color: #4A678C;
     font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 25px;
     color: white;
     padding:15px 20px;
     Margin: 25px
@@ -62,21 +74,22 @@ button{
 
 h1{
     font-family: 'Hanken Grotesk', sans-serif;  
-    font-size: 38px;
+    font-size: 55px;
     text-align: center;
 }
 h3{
     font-family: 'Hanken Grotesk', sans-serif; 
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     color: #4A678C;
 }
 h4{
     font-family: 'Hanken Grotesk', sans-serif;  
+    font-size: 25px;
 }
 p{
     font-family: 'Hanken Grotesk', sans-serif;
-    font-size: 20px;
+    font-size: 28px;
 }
 img{
     padding: 20px;
@@ -103,7 +116,6 @@ img{
 }
 #blue{
     background-color: #4A678C;
-    margin-top: 100px;
 }
 #red{
     background-color: #BF2441;
@@ -146,7 +158,13 @@ img{
     padding-top: 150px;
 
 }
+#prodButton{
+    scroll-behavior: smooth;
+   }
+.spacer{
+    height: 100px;
 
+}
 
     
 @media only screen and (max-width: 600px){
